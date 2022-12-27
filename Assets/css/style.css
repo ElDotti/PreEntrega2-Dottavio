@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bodyIndex{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.titulo{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navegador{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: #9b00b3;
+    line-height: normal;
+    
+}
+
+.navletra > div > div > ul > li > a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #86009E;
+
+}
+.d-block{
+    height: 500px;
+}
+
+header{
+    margin-top: 50px;
+}
+
+.slider{
+    width: 100%;
+    padding: 10px
+
+}
+
+.tarjeta{
+    width: 300px;
+    border: solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.tarjetaProducto{
+    width: 250px;
+    border: solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.tarjeta__img{
+    width: 100%;
+}
+
+.tarjeta__titulo{
+    padding: 5px;
+    text-align: center;
+}
+
+.tarjeta__parrafo{
+    margin: 5px;
+    font-size: 20px;
+    max-width: 380px;
+    margin-top: 20px;
+}
+
+.boton{
+    display: block;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #86009E;
+    color: white;
+    margin-left: 5px;
+}
+
+.imagenFooter{
+    width: 100%;
+    padding: 5px;
+}
+.parrafofoter{
+    display: inline;
+
+}
+
+.footerLogo{
+    width: 26px;
+}
+.redesSociales{
+    width: 36px;    
+}
+
+
+
+.categorias{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.perfiloide{
+    display: flex;
+
+    flex-direction: row;
+    width: 1300px;
+    background-color: aquamarine
+
+
+
+}
+.perfiles{
+    backgroun-color: aquamarine
+}
+.perfil1{
+    width: 250px;
+    height: 250px;
+}
+
+.perfilInfo{
+    margin-top: 15px;
+
+}
+
+div span h2{
+    font-size: 50px;
+
+}
+
+
+
+div h2{
+    font-size: 30px;
+}
+
+div > span > p{
+    width: 400px;
+    padding: 5px;
+}
+
+.inputs{
+    display: block;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 650px;
+}
+
+.parrafoUbicacion{
+    font-size: 20px;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+footer > div > p  {
+    font-size: 20px;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Todo esto es productos*/
+.bodyProductos{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    Overflow-x: hidden
+
+
+}
+.tituloProductos{
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.filtros{
+    width: 300px;
+    height: 600px;
+    top: 100px;
+    padding: 5px;
+}
+.espacio{
+    height: 20px;
+}
+.ulStyle{
+    list-style-type: none;
+}
+
+.carta{
+    border: 3px solid black;
+    height: 300px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text{
+    padding: 0px;
+    margin: 0px;
+}
+.btnFiltro{
+    display: none;
+}
+.btn-dark{
+    width: 100px;
+    margin: 5px;
+}
+.btn-darko{
+    width: 150px;
+    margin-left: 20px;
+
+}
+.section{
+    height: 350px;
+}
+
+@media (max-width: 1200px){
+    .carta4,.carta3{
+        display: none;
+    }
+    .card-img-top{
+        width: 200px;
+    }
+
+    }
+@media (max-width: 992px) {
+    .filtros{
+        display: none;
+    }
+    .crta3{
+        display: block;
+    }
+    .btnFiltro{
+        display: block;
+    }
+    
+}
+@media (max-width: 862px) {
+    .carta3{
+        display: none;
+    }
+    
+}
+@media (max-width: 576px) {
+    .carta2{
+        display: none;
+    }
+    .card-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+
+    
+}
+
+/* Aca termina productos*/
+
+/* Todo esto es Contacto*/
+.bodyContacto{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    Overflow-x: hidden
+
+}
+.formulario{
+    width: 500px;
+
+    margin: 5px;
+}
+@media (max-width: 850px){
+    .formulario{
+        width: 450px;
+    }
+    .bodyContacto{
+        Overflow-x: hidden
+    }
+}
+.reclamo{
+ width: 300px;
+}
+@media (max-width: 768px){
+    .formulario{
+        width: 300px;
+    }
+    .bodyContacto{
+        Overflow-x: hidden
+    }
+    .reclamo{
+        width: 250px;
+    }
+}
+@media (max-width: 381px){
+    .tamaño2,.tamaño{
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 481px){
+    .footerContacto > div > div > i{
+        font-size: 20px;
+    }
+    .bodyContacto{
+        Overflow-x: hidden
+    }
+}
+@media (max-width: 481px){
+    .footerContacto > div  {
+        display: flex;
+        flex-direction: column;
+    }
+    .bodyContacto{
+        Overflow-x: hidden
+    }
+}
+@media (max-width: 393px){
+    .footerContacto > div > p  {
+        font-size: 15px;
+    }
+    .bodyContacto{
+        Overflow-x: hidden
+    }
+}
+.tamaño{ 
+    font-size: 20px;
+    max-width: 380px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.tamaño2{
+    font-size: 30px;
+    max-width: 380px;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+.fa-brands{
+    font-size: 40px;
+}
+.btnContacto{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-right: 23px;
+
+}
+
+/* Aca termina Contacto*/
+
